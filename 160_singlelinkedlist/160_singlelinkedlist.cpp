@@ -81,7 +81,17 @@ bool deleteNode(int nim) {
 }
 
 bool listEmpty() {
+	if (listEmpty()) {
+		cout << "List Kosong" << endl;
+		system("Pause");
+		system("cls");
+		return;
+	}
+	else
+	{
+		Node* currentNode = START;
 
+	}
 }
 	
 
