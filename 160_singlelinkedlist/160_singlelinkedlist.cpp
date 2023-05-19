@@ -16,7 +16,7 @@ void addNode() {
 	Node* nodebaru = new Node();
 	cout << "Masukkan NIM: ";
 	cin >> nim;
-	cout << "Masukka Nama: ";
+	cout << "Masukkan Nama: ";
 	cin >> nama;
 	nodeBaru->noMhs = nim;
 	nodeBaru->name = nama;
@@ -47,7 +47,10 @@ void addNode() {
 	}
 }
 
+bool searchNode(int nim, Node* current, Node* previous) {
+	previous = START;
+	current = START;
+	while (current != NULL && nim > current)
+
 int main()
-{
-    std::cout << "Hello World!\n";
-}
+
