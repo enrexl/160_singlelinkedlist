@@ -90,7 +90,12 @@ bool listEmpty() {
 	else
 	{
 		Node* currentNode = START;
-
+		while (currentNode != NULL)
+		{
+			cout << "NIM: " << currentNode->noMhs << ", Nama: " << currentNode->name
+				currentNode = currentNode->next;
+		}
+		cout << endl;
 	}
 }
 	
