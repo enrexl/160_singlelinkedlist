@@ -99,6 +99,8 @@ bool listEmpty() {
 	}
 }
 	
+void searchData() {
 
+}
 int main()
 
